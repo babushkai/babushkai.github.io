@@ -3,3 +3,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# 提案資料の PDF はトップページに埋め込む。DENY のままでは自サイトの iframe に表示できないため、この1ファイルだけ同一オリジンを許す。
+/proposal.pdf
+  X-Frame-Options: SAMEORIGIN

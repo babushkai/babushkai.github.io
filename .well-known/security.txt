@@ -3,4 +3,4 @@ Contact: mailto:daisuke.kuwabara@babushkai.com
 Policy: https://security.babushkai.com/disclosure/
 Preferred-Languages: ja, en
 Canonical: https://security.babushkai.com/.well-known/security.txt
-Expires: 2027-04-26T20:23:19Z
+Expires: 2027-04-27T06:33:27Z
