@@ -1,9 +1,17 @@
+# generated from src/data/policy.ts — 編集は src/data/policy.ts で行ってください
+# GitHub Pages はこのファイルを読まない（`npm run live` が実際のレスポンスを報告する）
+
+# 全ページ
 /*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
   X-Frame-Options: DENY
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-# 提案資料の PDF はトップページに埋め込む。DENY のままでは自サイトの iframe に表示できないため、この1ファイルだけ同一オリジンを許す。
+# 提案資料の PDF はトップページに埋め込むので、この1ファイルだけ同一オリジンを許す
 /proposal.pdf
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'self'
   X-Frame-Options: SAMEORIGIN
