@@ -6,7 +6,7 @@
   <description>東京の独立系セキュリティアドバイザリー。認証・API・クラウド構成の設計レビューを、公表資料・仕様書・設定・コード・実行結果の5階層に降りて、推測と確認を分けたまま届けます。</description>
   <language>ja</language>
   <atom:link href="https://security.babushkai.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 01 Nov 2026 20:42:16 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 20:43:25 GMT</lastBuildDate>
   <!-- src/data/policy.ts の indexed が false のあいだは item を出さない（noindex / Disallow: / と同じ判断）。
        切り替えたらこの候補が item になる: /notes/oauth-authorization-code/ -->
 </channel>
