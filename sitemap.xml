@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- src/data/policy.ts の indexed が false の間は URL を出さない（noindex / Disallow: / と同じ判断）。
+     切り替えたらこの候補がそのまま <url> になる: / /contact/ /data-handling/ /disclosure/ /notes/oauth-authorization-code/ /proposal/ /services/ -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
